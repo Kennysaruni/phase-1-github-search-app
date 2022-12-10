@@ -2,12 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(252, 252, 252);
+  }
+h2{
+  color: rgb(10, 9, 9);
 }
-
 #github-container {
   display: flex;
 }
 
 ul {
   list-style: none;
+}
+div.user-card{
+display: flex;
+flex-wrap: wrap;
+margin-left: 100px;
+margin-bottom: 24px;
+background-color: bisque;
+border-radius: 25px;
+}
+div.profile-pic {
+  width: 200px;
+  margin-right: 24px;
+  border-radius: 25px;
+}
+ul#user-list {
+  list-style: none;
+  width: 100vh;
 }
